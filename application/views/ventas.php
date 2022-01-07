@@ -19,7 +19,7 @@
            
         </div>
         <div class="col-md-12 col-lg-12 col-xs-12">
-            <a href="index">Modulo de productos</a>
+            <a href="Init">Modulo de productos</a>
         </div>
        
 
