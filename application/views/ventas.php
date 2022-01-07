@@ -18,9 +18,7 @@
             <button class="btn btn-lg btn-primary btn-block" type="submit" id="compra">Comprar Producto</button>
            
         </div>
-        <div class="col-md-12 col-lg-12 col-xs-12">
-            <a href="Init/index">Modulo de productos</a>
-        </div>
+        
        
 
     </div>
