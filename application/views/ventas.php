@@ -41,7 +41,7 @@
 
         $.ajax({
             type: "POST",
-            url: "registrar_compra",
+            url: "Init/registrar_compra",
             data: { id: id, cantidad: cantidad },
             dataType: "JSON",
             success: function(data) {
