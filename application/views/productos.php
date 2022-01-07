@@ -125,7 +125,7 @@
             </table>
         </div>
         <div class="col-md-12 col-lg-12 col-xs-12">
-            <a href="ventas">Modulo de ventas</a>
+            <a href="Init/ventas">Modulo de ventas</a>
         </div>
         <div class="modal fade" id="EliminarModal" tabindex="-1" aria-labelledby="EliminarModalLabel" aria-hidden="true">
             <div class="modal-dialog">
