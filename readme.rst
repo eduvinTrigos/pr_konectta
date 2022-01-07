@@ -41,7 +41,7 @@ $db['default'] = array(
 
 las consultas en seco para el sql 
 Realizar una consulta que permita conocer cuál es el producto más vendido
-SELECT SUM(t1.cantidad) as total_vendidos,t2.nombre FROM `ventas` t1 JOIN productos t2 on t1.id_producto= t2.id GROUP BY id_producto LIMIT 1
+SELECT SUM(t1.cantidad) as total_vendidos,t2.nombre FROM ventas t1 JOIN productos t2 on t1.id_producto= t2.id GROUP BY id_producto ORDER BY cantidad DESC limit 1
 
 Realizar una consulta que permita conocer cuál es el producto que más stock tiene
 SELECT MAX(stock) as stock ,nombre FROM  productos  
