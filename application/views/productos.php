@@ -168,7 +168,7 @@
         };
         $.ajax({
             type: "POST",
-            url: "creacion_producto",
+            url: "Init/creacion_producto",
             data: { data: data },
             dataType: "JSON",
             success: function(data) {
@@ -189,7 +189,7 @@
         var id = $('#id_producto').val();
         $.ajax({
             type: "POST",
-            url: "eliminacion_producto",
+            url: "Init/eliminacion_producto",
             data: { id: id },
             dataType: "JSON",
             success: function(response) {
@@ -208,7 +208,7 @@
         var data_producto = [];
         $.ajax({
             type: "POST",
-            url: "listar_producto",
+            url: "Init/listar_producto",
             data: { id: id },
             dataType: "JSON",
             async: false,
@@ -258,7 +258,7 @@
         };
         $.ajax({
             type: "POST",
-            url: "editar_producto",
+            url: "Init/editar_producto",
             data: { data: data },
             dataType: "JSON",
             success: function(data) {
